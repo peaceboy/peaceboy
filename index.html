@@ -42,7 +42,7 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1431629373793572&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -72,14 +72,17 @@
     </div>
     
     
-    <a href="http://www.facebook.com/sharer.php?s=100&amp;p[title]=Play Zotly Addicted Ball Game&amp;p[summary]=Play Zotly Addicted Game Now&amp;p[url]=http://zotly.com
-onclick="return !window.open(this.href, 'Facebook', 'width=500,height=400')">
-	<CENTER><img alt='Facebook'src='http://i.imgur.com/aONaiEB.png'/></CENTER></a>
-	
-
+    <a href="javascript:facebookshare();" class="btn btn_follow" title="Facebook">
+ <i class="fa fa-facebook"></i>
+ </a>
+ function facebookshare() {
+ FB.ui({
+ method: 'share',
+ href: window.location.href,
+ }, function(response){});
+ }
+ 
     
-   <a href='http://www.facebook.com/share.php?u=http://zotly.com'target="_blank">
-<CENTER><img alt='Facebook'src='http://i.imgur.com/aONaiEB.png'/></CENTER></a>
     
     
     
