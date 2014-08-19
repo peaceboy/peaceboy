@@ -76,7 +76,7 @@ hr
 	width: 620px;
 	height: 442px;
 	background-color: #404040;
-	margin: 7px auto 0 auto;
+	margin: 0px auto 0 auto;
 	opacity: 0;
 	
 	transition: opacity .5s ease-in;
