@@ -24,10 +24,10 @@ game = {
     },
 
     settings: {
-        fps: 55,
+        fps: 40,
         ballSize: 12,
-        explodeRadius: 16 * 3,
-        explodeTime: 3000,
+        explodeRadius: 15 * 3,
+        explodeTime: 2000,
         bombColor: '#ddd'
     },
 
